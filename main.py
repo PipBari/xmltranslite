@@ -1,5 +1,7 @@
 import xml.etree.ElementTree as ET
 
+
+#Данный класс предполагает замену в двух разных xml файлах одной структуры содержание одинаковых тегов
 # Загружаем первый XML файл с указанием кодировки UTF-8
 tree1 = ET.parse('test1.xml', parser=ET.XMLParser(encoding='utf-8'))
 root1 = tree1.getroot()
